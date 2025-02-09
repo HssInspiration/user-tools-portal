@@ -71,6 +71,7 @@ var PAGE = {
 
             var peijian_str = '';
             var peijian_len = Object.keys(v['caowei_peijian']).length;
+            console.log('v[\'caowei_peijian\']: ', v['caowei_peijian'])
             var j = 0;
             $.each(v['caowei_peijian'], function (caowei_id, peijian_id) {
                 if (is_empty(_peijian_list[peijian_id])) return;
