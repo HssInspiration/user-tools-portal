@@ -1,3 +1,4 @@
+var DETAIL_URL = '/user-tools-portal/test/detail.html?';
 var ACT = {
     //**************************函数的一些标志，跟公用变量**************************************
     dialog: '',
@@ -134,11 +135,11 @@ var ACT = {
         window.activityInterface.toToolDetailWaps(GAI_URL + (GAI_URL.indexOf('?') == -1 ? '?' : '&') + urlparam, '三角洲行动快爆改枪台', "");
     },
     toDetailPage: function (id, is_finish) {
-        if (!ACT._check()) return false;
+        // if (!ACT._check()) return false;
         is_finish = is_finish || 0;
         if (is_finish && typeof (window.activityInterface) == 'object' && typeof (window.activityInterface.finishActivity) == "function") window.activityInterface.finishActivity();
-        // Verify._JumpUrl(DETAIL_URL + (DETAIL_URL.indexOf('?') == -1 ? '?' : '&') + 'id=' + id, '三角洲行动快爆改枪台');
-        window.activityInterface.toToolDetailWaps(DETAIL_URL + (DETAIL_URL.indexOf('?') == -1 ? '?' : '&') + 'id=' + id, '三角洲行动快爆改枪台', "");
+        Verify._JumpUrl(DETAIL_URL + (DETAIL_URL.indexOf('?') == -1 ? '?' : '&') + 'id=' + id, '三角洲行动快爆改枪台');
+        // window.activityInterface.toToolDetailWaps(DETAIL_URL + (DETAIL_URL.indexOf('?') == -1 ? '?' : '&') + 'id=' + id, '三角洲行动快爆改枪台', "");
     },
     toMyPage: function (is_finish) {
         if (!ACT._check()) return false;

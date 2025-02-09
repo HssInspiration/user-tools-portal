@@ -71,7 +71,6 @@ var PAGE = {
 
             var peijian_str = '';
             var peijian_len = Object.keys(v['caowei_peijian']).length;
-            console.log('v[\'caowei_peijian\']: ', v['caowei_peijian'])
             var j = 0;
             $.each(v['caowei_peijian'], function (caowei_id, peijian_id) {
                 if (is_empty(_peijian_list[peijian_id])) return;
@@ -140,8 +139,6 @@ var PAGE = {
             if (!Verify.AjaxDialog(msg, ACT.c)) {
                 return false;
             }
-            console.log('msg type: ', typeof msg)
-            console.log('msg: ', msg)
             if (msg.key == 'ok') {//有数据
                 PAGE.cursor = msg.result.cursor;
                 PAGE.last_id = msg.result.last_id;
