@@ -1,0 +1,27 @@
+{
+  "cloudDBZoneName": "toolsdb",
+  "objectTypeName": "main_info",
+  "objects": [
+    {
+      "id": "3",
+      "peijian_price_total": "196049",
+      "gun_title": "SV-98\u72d9\u51fb\u6b65\u67aa",
+      "gun_price": "35500",
+      "collect_num": "453",
+      "uid": "131784874",
+      "gun_id": "51",
+      "cate_id": "6",
+      "create_time": "09-13",
+      "status": "1",
+      "price": "231549",
+      "gun_thumb": "\/\/img.71acg.net\/whd~hykb\/comm\/hd_admin_upload_2982_cc5f951b3755e367657f23189a6f7da4.png",
+      "cate_title": "\u72d9\u51fb\u6b65\u67aa",
+      "title": "\u96f6\u53f7\u5927\u575d\u72d9\u4ed4\u914d\u88c5",
+      "share_code": "",
+      "share_num": "252",
+      "zan": "1064",
+      "collected": 0,
+      "zaned": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "cloudDBZoneName": "toolsdb",
+  "objectTypeName": "main_info",
+  "objects": [
+    {
+      "key": "ok",
+      "last_id": "996",
+      "cursor": 1
+    }
+  ]
+}
