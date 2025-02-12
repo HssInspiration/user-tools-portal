@@ -8,6 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@hw-agconnect/api':
+        specifier: ^1.5.1
+        version: 1.5.1
+      '@hw-agconnect/function':
+        specifier: 1.5.1
+        version: 1.5.1
+      '@hw-agconnect/instance':
+        specifier: ^1.5.1
+        version: 1.5.1
       vue:
         specifier: ^3.5.13
         version: 3.5.13
@@ -191,6 +200,48 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@hw-agconnect/api-types@1.5.1':
+    resolution: {integrity: sha512-DG1kt8zNmkKl4XC5iiw0filX0vJSk09lktCfPweKobz1t8ykWfDXpfWD5AUodAAoMdWl/D9LoEpDclJIPZ/hfQ==}
+
+  '@hw-agconnect/api@1.5.1':
+    resolution: {integrity: sha512-Ujb1l/39Qn07/++8nkyQx9ZuPmRk51YpR7odth/r5+PJBa7LX/Ebczkj+cPEgnzR8b5rDmlLCjjRqa0CarD9Uw==}
+
+  '@hw-agconnect/baseservice-types@1.5.1':
+    resolution: {integrity: sha512-gAKmGhOZMzBQuSYu3TQr6AqI2mWtD8CKcUMG3GnysRGvOWOE/+S8zJUy5Eb1CpzrqR1ScyRF1jCUCN/5PdM3+g==}
+
+  '@hw-agconnect/baseservice@1.5.1':
+    resolution: {integrity: sha512-KllAnFyLcfiyMW3KcmI8yIS1tbenOX1AG13PtqnGb/dsCyU/BAS626UdwHP3Ag71Gmh8KEh7pVw48kh18E4DZA==}
+
+  '@hw-agconnect/core@1.5.1':
+    resolution: {integrity: sha512-St7gFLtvqjkVJtnG53tPe5qGeLdlF+mdt0BTznQgF3tJC3CeQ4j1P+KBaTOCbMWCd9lPBwH6kUiesgCOhPvp/A==}
+
+  '@hw-agconnect/function-types@1.5.1':
+    resolution: {integrity: sha512-RnByZQ0ZJNMFs4HGSs5RIgghU4q4pK8ELEzUYY6RCf/pl4vlDsWSXKPx7D+UI2jxvJDZvMvmTXVUxTpJUFdgBA==}
+
+  '@hw-agconnect/function@1.5.1':
+    resolution: {integrity: sha512-77+a/u8I2D9L90hSCWjpRZmUhExfX433sru+LblHJFY3Tij9I4JN8X7qKVVYGeA8g2M/OdWLdz4NdpvJHiqLMQ==}
+
+  '@hw-agconnect/instance-types@1.5.1':
+    resolution: {integrity: sha512-zYdPXl9BIPajl/P8C4grvuRiY+6tIh7OSuv1QyWANBmbg1aLob9LNGFzrpvDw4CxrV4VPrYL3iKpWnfgruIZMQ==}
+
+  '@hw-agconnect/instance@1.5.1':
+    resolution: {integrity: sha512-V9KRZfS0y70wYBDU8WPlLvONJaVNhO1ev8yy9JSGq8zNZJeZrILm9RJO8DhulOR8F4Y+6g8ccSArWH/dX0RgkA==}
+
+  '@hw-agconnect/log@1.5.1':
+    resolution: {integrity: sha512-8FRyiP68KQeJ+3pI+/xNSHiGw7UTMsgBdmteHeJrYJas1U+5RG74CuHUxhwFjEa3iwNan46VaCNLaSrgMehyww==}
+
+  '@hw-agconnect/network-types@1.5.1':
+    resolution: {integrity: sha512-b3EWvBHB81J0KBhtbEZxJndp82TSLtnx8ePBjBJqKnodbM/hmkUn7pKTZLswSrQshGIZe6ixFpJj0kE5piP0iA==}
+
+  '@hw-agconnect/network@1.5.1':
+    resolution: {integrity: sha512-Kz94N2qhHB0HPLf3sCzbCENQ239bxb7QSfC9AwicAXJzZFbUabUVITfxKvGPzfiDs/YgpeIjKH1MvsOWoKSLpg==}
+
+  '@hw-agconnect/storage-types@1.5.1':
+    resolution: {integrity: sha512-Lwn2kXQGKm27kr8Gmz2M9pPnI/zNe9h05kgMMIwZwq0/9x29Eswa8wgy8cynTk1MdAbuhwkCLn+cxPTZ3CwIvA==}
+
+  '@hw-agconnect/storage@1.5.1':
+    resolution: {integrity: sha512-1SABDBlBaKonFqkI7k44jK5JD0rfT4Z5sJR/qvJUiOjIygFGdFmZdrJDr5QQam1VrcQPMoLkMzSDrWT8bfuCwg==}
+
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
@@ -341,8 +392,25 @@ packages:
   '@vue/shared@3.5.13':
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
 
+  asynckit@0.4.0:
+    resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+
+  axios@0.27.2:
+    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
+
+  bignumber.js@9.0.1:
+    resolution: {integrity: sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==}
+
+  combined-stream@1.0.8:
+    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
+    engines: {node: '>= 0.8'}
+
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+
+  delayed-stream@1.0.0:
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
+    engines: {node: '>=0.4.0'}
 
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
@@ -356,6 +424,19 @@ packages:
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
+  follow-redirects@1.15.9:
+    resolution: {integrity: sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
+  form-data@4.0.1:
+    resolution: {integrity: sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==}
+    engines: {node: '>= 6'}
+
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -363,6 +444,14 @@ packages:
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
+
+  mime-db@1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
+    engines: {node: '>= 0.6'}
+
+  mime-types@2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
+    engines: {node: '>= 0.6'}
 
   nanoid@3.3.8:
     resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
@@ -384,6 +473,12 @@ packages:
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
+
+  spark-md5@3.0.2:
+    resolution: {integrity: sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==}
+
+  ua-parser-js@1.0.34:
+    resolution: {integrity: sha512-K9mwJm/DaB6mRLZfw6q8IMXipcrmuT6yfhYmwhAkuh+81sChuYstYA+znlgaflUPaYUa3odxKPKGw6Vw/lANew==}
 
   vite@6.1.0:
     resolution: {integrity: sha512-RjjMipCKVoR4hVfPY6GQTgveinjNuyLw+qruksLDvA5ktI1150VmcMBKmQaEWJhg/j6Uaf6dNCNA0AfdzUb/hQ==}
@@ -528,6 +623,95 @@ snapshots:
   '@esbuild/win32-x64@0.24.2':
     optional: true
 
+  '@hw-agconnect/api-types@1.5.1': {}
+
+  '@hw-agconnect/api@1.5.1':
+    dependencies:
+      '@hw-agconnect/api-types': 1.5.1
+
+  '@hw-agconnect/baseservice-types@1.5.1': {}
+
+  '@hw-agconnect/baseservice@1.5.1':
+    dependencies:
+      '@hw-agconnect/api': 1.5.1
+      '@hw-agconnect/api-types': 1.5.1
+      '@hw-agconnect/baseservice-types': 1.5.1
+      '@hw-agconnect/core': 1.5.1
+      '@hw-agconnect/instance': 1.5.1
+      '@hw-agconnect/instance-types': 1.5.1
+      '@hw-agconnect/log': 1.5.1
+      '@hw-agconnect/network': 1.5.1
+      '@hw-agconnect/network-types': 1.5.1
+      '@hw-agconnect/storage': 1.5.1
+      '@hw-agconnect/storage-types': 1.5.1
+    transitivePeerDependencies:
+      - debug
+
+  '@hw-agconnect/core@1.5.1': {}
+
+  '@hw-agconnect/function-types@1.5.1': {}
+
+  '@hw-agconnect/function@1.5.1':
+    dependencies:
+      '@hw-agconnect/api': 1.5.1
+      '@hw-agconnect/api-types': 1.5.1
+      '@hw-agconnect/baseservice': 1.5.1
+      '@hw-agconnect/baseservice-types': 1.5.1
+      '@hw-agconnect/core': 1.5.1
+      '@hw-agconnect/function-types': 1.5.1
+      '@hw-agconnect/instance': 1.5.1
+      '@hw-agconnect/instance-types': 1.5.1
+      '@hw-agconnect/log': 1.5.1
+      '@hw-agconnect/network': 1.5.1
+      '@hw-agconnect/network-types': 1.5.1
+      bignumber.js: 9.0.1
+      spark-md5: 3.0.2
+    transitivePeerDependencies:
+      - debug
+
+  '@hw-agconnect/instance-types@1.5.1': {}
+
+  '@hw-agconnect/instance@1.5.1':
+    dependencies:
+      '@hw-agconnect/api': 1.5.1
+      '@hw-agconnect/api-types': 1.5.1
+      '@hw-agconnect/core': 1.5.1
+      '@hw-agconnect/instance-types': 1.5.1
+      '@hw-agconnect/log': 1.5.1
+
+  '@hw-agconnect/log@1.5.1':
+    dependencies:
+      '@hw-agconnect/api': 1.5.1
+      '@hw-agconnect/api-types': 1.5.1
+      '@hw-agconnect/instance-types': 1.5.1
+
+  '@hw-agconnect/network-types@1.5.1': {}
+
+  '@hw-agconnect/network@1.5.1':
+    dependencies:
+      '@hw-agconnect/api': 1.5.1
+      '@hw-agconnect/api-types': 1.5.1
+      '@hw-agconnect/instance': 1.5.1
+      '@hw-agconnect/instance-types': 1.5.1
+      '@hw-agconnect/log': 1.5.1
+      '@hw-agconnect/network-types': 1.5.1
+      axios: 0.27.2
+      ua-parser-js: 1.0.34
+    transitivePeerDependencies:
+      - debug
+
+  '@hw-agconnect/storage-types@1.5.1': {}
+
+  '@hw-agconnect/storage@1.5.1':
+    dependencies:
+      '@hw-agconnect/api': 1.5.1
+      '@hw-agconnect/api-types': 1.5.1
+      '@hw-agconnect/core': 1.5.1
+      '@hw-agconnect/instance': 1.5.1
+      '@hw-agconnect/instance-types': 1.5.1
+      '@hw-agconnect/log': 1.5.1
+      '@hw-agconnect/storage-types': 1.5.1
+
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
   '@rollup/rollup-android-arm-eabi@4.34.6':
@@ -650,7 +834,24 @@ snapshots:
 
   '@vue/shared@3.5.13': {}
 
+  asynckit@0.4.0: {}
+
+  axios@0.27.2:
+    dependencies:
+      follow-redirects: 1.15.9
+      form-data: 4.0.1
+    transitivePeerDependencies:
+      - debug
+
+  bignumber.js@9.0.1: {}
+
+  combined-stream@1.0.8:
+    dependencies:
+      delayed-stream: 1.0.0
+
   csstype@3.1.3: {}
+
+  delayed-stream@1.0.0: {}
 
   entities@4.5.0: {}
 
@@ -684,12 +885,26 @@ snapshots:
 
   estree-walker@2.0.2: {}
 
+  follow-redirects@1.15.9: {}
+
+  form-data@4.0.1:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      mime-types: 2.1.35
+
   fsevents@2.3.3:
     optional: true
 
   magic-string@0.30.17:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  mime-db@1.52.0: {}
+
+  mime-types@2.1.35:
+    dependencies:
+      mime-db: 1.52.0
 
   nanoid@3.3.8: {}
 
@@ -727,6 +942,10 @@ snapshots:
       fsevents: 2.3.3
 
   source-map-js@1.2.1: {}
+
+  spark-md5@3.0.2: {}
+
+  ua-parser-js@1.0.34: {}
 
   vite@6.1.0:
     dependencies:

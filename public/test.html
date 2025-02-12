@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>调用华为AGC云函数</title>
+    <!-- 引入AGC JavaScript SDK -->
+    <script src="https://unpkg.com/@agconnect/common@1.7.0/dist/agconnect-common.min.js"></script>
+    <script src="https://unpkg.com/@agconnect/functions@1.7.0/dist/agconnect-functions.min.js"></script>
+</head>
+
+<body>
+<button id="callFunctionButton">调用云函数</button>
+<div id="result"></div>
+
+<script>
+  // AGC配置信息
+  const agcConfig = {
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "YOUR_CLIENT_SECRET",
+    "project_id": "YOUR_PROJECT_ID",
+    "app_id": "YOUR_APP_ID",
+    "api_key": "YOUR_API_KEY"
+  };
+
+  // 初始化AGC
+  agconnect.instance().configInstance(agcConfig);
+
+  // 获取按钮元素
+  const callFunctionButton = document.getElementById('callFunctionButton');
+  // 获取结果显示元素
+  const resultDiv = document.getElementById('result');
+
+  // 为按钮添加点击事件监听器
+  callFunctionButton.addEventListener('click', async () => {
+    try {
+      // 获取云函数实例
+      const functions = agconnect.functions();
+      // 获取指定名称的云函数
+      const helloWorldFunction = functions.wrap('helloWorld');
+
+      // 调用云函数
+      const result = await helloWorldFunction.call();
+
+      // 显示云函数返回的结果
+      resultDiv.textContent = `云函数返回结果: ${JSON.stringify(result.result)}`;
+    } catch (error) {
+      // 处理调用云函数时的错误
+      resultDiv.textContent = `调用云函数出错: ${error.message}`;
+    }
+  });
+</script>
+</body>
+
+</html>
